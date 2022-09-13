@@ -14,7 +14,7 @@ public class MainOwnDatatype {
     }
 
     private static void outputMap(Map<Coordinate, Color> testMap) {
-        System.out.println(testMap.get(2));
+        System.out.println(testMap.get(new Coordinate(1,1)));
         System.out.println(testMap.toString());
     }
 
